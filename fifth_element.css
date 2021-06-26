@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 80vh;
+    width: 55vh; 
+    border-color: gray;
+    border-style: solid;
+    margin-top: 0;
+    padding: 0; 
+}
+
+#poster_body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#top_band {
+    height: 6%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0; 
+}
+
+.side_block {
+    width: 40%;
+    height: 100%;
+}
+
+#top_band .side_block {
+    background-color: red;
+}
+
+.thin_band {
+    height: 12%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.thin_band h3, h1 {
+    margin: 1.5%; 
+}
+
+.thick_band {
+    height: 24%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thick_band .side_block {
+    background-color: orange;
+}
+
+#bottom_band {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bottom_band .side_block {
+    background-color: orange;
+}
+
+.thin_band p {
+    margin-top: 12%;
+}
+
